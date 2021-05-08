@@ -711,12 +711,12 @@ footer{
     border-radius: 50%;
     cursor: pointer;
 }
-/* .close-svg{
-    display: block;
-    width: 18px;
-    height: 18px;
-
-} */
+.close-svg{
+    fill: #000;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-delay: cubic-bezier(0.4, 0, 0.2, 1);
+}
 .modal-close-btn:focus  .close-svg,
 .modal-close-btn:hover  .close-svg{
     fill: var(--other-fonts);
@@ -757,7 +757,7 @@ footer{
     box-sizing: border-box;
     border-radius: 4px;
 }
-/* input:-webkit-autofill,
+input:-webkit-autofill,
 input:-webkit-autofill:hover, 
 input:-webkit-autofill:focus{
     font-family: 'Roboto';
@@ -767,7 +767,7 @@ input:-webkit-autofill:focus{
     line-height: 1.14;
     color: var(--text-font-color);
     box-shadow: 0 0 0px 1000px #fff inset;
-} */
+}
 .modal-svg{
     position: absolute;
     left: 12px;
