@@ -178,17 +178,17 @@
         </section>
     </main>
     <footer>
-        <div class="container footer">
-          <div>
-        <a class="footer-logo" href="./index.html"><span class="web-logo">Web</span>Studio</a>
+      <div class="container footer">
+        <div class="info">
+          <a class="footer-logo" href="./index.html"><span class="web-logo">Web</span>Studio</a>
           <address class="foot-address">
               <span class="address ft-design ">г. Киев, пр-т Леси Украинки, 26</span>
               <a class="footer-contacts  footer-item" href="mailto:info@devstudio.com">info@devstudio.com</a>
               <a class="footer-contacts  " href="tel:+380961111111">+38 096 111 11 11</a>
           </address>
         </div>
-        <section class="join-us">
-          <h2 class="join-title">присоединяйтесь</h2>
+        <div class="join-us">
+          <p class="join-title">присоединяйтесь</p>
           <ul class="footer-socials list">
             <li class="footer-socials-item">
               <a href="" class="footer-socials-links">
@@ -210,7 +210,8 @@
                   <use href="./img/svg/sprite.svg#icon-facebook"></use>
                 </svg>
               </a>
-            </li><li class="footer-socials-item">
+            </li>
+            <li class="footer-socials-item">
               <a href="" class="footer-socials-links">
                 <svg class="footer-socials-icons">
                   <use href="./img/svg/sprite.svg#icon-linkedin"></use>
@@ -218,8 +219,22 @@
               </a>
             </li>
           </ul>
-        </section>
         </div>
+        <div class="subscribe-form">
+          <p class="join-title">подпишитесь на рассылку</p>
+        <form class="subscribe">
+          <label for="sub-email" class="sub-label">
+          <input class="sub-input" type="email" id="sub-email" placeholder="E-mail">
+          </label>
+          <button type="submit" class="sub-btn">
+            Подписаться
+            <svg class="subsc-svg" width="24px" height="24px">
+              <use href="./img/svg/sprite2.svg#icon-send"></use>
+            </svg>
+          </button>
+        </form>
+        </div>
+      </div>
     </footer> 
 </body>
 </html>
